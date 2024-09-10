@@ -1,0 +1,82 @@
+.showcase{
+ 
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+     
+}
+.womanshapeware{
+  width: 220px;
+  height: 220px;
+  
+   
+}
+.showcase-image{
+    line-height: 35px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 400px;
+    max-width: 250px;
+
+
+     
+} 
+
+.showcaseimagepara{
+    color: #666;
+}
+.price{
+    display: flex;
+    text-align: end;
+    align-items: end;
+}
+.price p{
+    font-weight: 100;
+    color: #666;
+}
+.price h1{
+    margin: 0;
+    font-family: 25px
+}
+
+.card-para{
+    margin: 0 100px 0 0;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 1px;
+    border-radius: 20px;
+    background: rgb(248, 248, 255);
+    color: #666;
+}
+.rating-game{
+    display: flex;
+    justify-content:start;
+    align-items: end;
+    gap: 5px;
+    -webkit-box-pack: end;
+}
+
+.rating{
+    color: #fff;
+    background:rgb(35, 187, 117);
+    border-radius: 16px;
+    padding:0px 7px;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+.rating-number{
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: end;
+ justify-content: end;
+ text-align: end;
+}

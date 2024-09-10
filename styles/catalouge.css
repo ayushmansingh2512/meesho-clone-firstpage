@@ -1,0 +1,224 @@
+.catalouge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.catalougeimages {
+    width: 1069px;
+    margin: 48px 0px 60px; 
+    background: url('../images/ifrstbackground.webp') ;
+    background-size: 100% 100%;
+    border-radius: 4px;
+    padding: 90px 24px 35px;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+    gap: 16px;
+     
+}
+.catalouge-image-2{
+    display: flex;
+    gap: 15px;
+}
+
+.catalougeimage2{
+    display: flex;
+     
+    background: url('../images/essenmtial.webp');
+    width: 1069px;
+    margin: 48px 0px 60px; 
+    background-size: 100% 100%;
+    border-radius: 4px;
+    padding: 90px 24px 35px;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+    gap: 16px;
+
+}
+.catalog-img-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.viewall-button{
+    width: 339px;
+    height: 288px;
+    padding-top: 30px;
+    margin-right: 30px;
+    position: relative;
+    text-align: center;
+}
+.viewall-button img{
+    width: 183px;
+    height: 70px;
+    
+}
+.image-12{
+       
+       width: 197px;
+       height: 331px;
+       
+} 
+.image-1{
+    width: 175px;
+    height: 64px;
+    aspect-ratio: auto 175 /64;
+} 
+/* Container to hold everything */
+. /* Container to hold everything */
+.reseller {
+    position: relative; /* Allows absolute positioning of child elements */
+    max-width: 1069px;
+    margin: 0 auto;/* Center container horizontally */
+}
+
+/* Image container */
+.ladyimage {
+    position: relative; /* Container for positioning child elements */
+    width: 1069px; /* Ensure it takes full width of its parent */
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden    ;
+}
+
+/* Make sure the image fills the container */
+.ladyimage img {
+    width: 100%; /* Fill the width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Position text and buttons over the image */
+.reseller-p1, .reseller-h1, .reseller-download {
+    position: absolute; /* Position these elements relative to the .ladyimage container */
+    color: #fff; /* White text color for visibility */
+}
+
+/* Position the paragraph */
+.reseller-p1 {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    top: 20px; /* Adjust as needed */
+    left: 70%; /* Adjust as needed */
+    color:rgb(85, 133, 248);
+    font-size: 25px;
+    
+}
+
+/* Position the heading */
+.reseller-h1 {
+    margin-top: 30px;
+    top: 60px; /* Adjust as needed */
+    left: 44%;
+    display: flex;
+    text-align: end;
+    font-size: 28px;
+    color: blueviolet; /* Adjust as needed */
+    width: calc(100% - 40px); /* Ensure heading fits within container */
+}
+
+/* Position the download buttons */
+.reseller-download {
+    bottom: 215px; /* Adjust as needed */
+    left: 66.6%; /* Adjust as needed */
+    display: flex; /* Align buttons horizontally */
+    gap: 10px; /* Space between buttons */
+}
+
+/* Style for buttons */
+.reseller-button1 img {
+    width: 150px; /* Adjust size of buttons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.signupimage {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    
+}
+
+.signupimage img {
+    width: 1069px;
+    height: auto;
+}
+
+.signup-h1, .signup-p1, .signup-security, .signup h3 {
+    position: absolute;
+    left: 30px; /* Adjust as needed */
+    color: white; /* Adjust based on image */
+    text-align: start; /* Align text to the start (left) */
+}
+
+.signup-h1 {
+    top: 10%; /* Adjust as needed */
+    font-size: 22px;
+    margin-bottom :10px;
+}
+
+.signup-p1 {
+    top: 30%; /* Adjust as needed */
+    font-size:20px;
+    margin-top: 14px;
+}
+
+.signup-security {
+    top: 40%; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: auto; /* Adjust width as needed */
+    margin: 30px 0 0 0px;
+    font-size: 18px;
+    font-weight: 100;
+  
+   
+}
+.signup-border1{
+    padding: 0px 20px 0px 0;
+    border-right: 1px solid #fff;
+    
+}
+.signup-border2{
+    padding: 0px 20px 0px 0;
+    border-right: 1px solid #fff;
+    margin-left: 20px;
+}
+.signup-border3{
+    padding: 0px 20px 0px 0;
+   margin-left: 20px;
+    
+}
+
+.signup h3 {
+    top: 70%; /* Adjust as needed */
+}
+.signup-button{
+   
+   
+}
+.signup-h-butt{
+    width: 168px;
+    background-color: rgb(255, 255, 255);
+    color:violet;
+    border-radius: 4px;
+    padding: 10px 28px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    
+    position: absolute;
+}
+.sc-pyfCe{
+    margin-right: 10px;
+    margin-left: 0;
+}

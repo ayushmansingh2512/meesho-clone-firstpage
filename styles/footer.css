@@ -1,0 +1,63 @@
+.shop-nonshop{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+     
+    align-items: center;
+    background:rgb(248, 248, 255) ;
+}
+
+.footer{
+    margin-top: 80px;
+    width: 1300px;
+    display: flex;
+    gap: 29px;
+    margin-bottom: 80px;
+}
+
+.onMeesho{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.onMeesho h1{
+    font-size:30px;
+    font-weight: 100;
+}
+.onMeesho div p{
+    color:rgb(97, 97, 115);
+}
+.onMeesho-img{
+    margin-top: 10px;
+}
+.onMeesho-download{
+    width: 180px;
+}
+ 
+.careers{
+    font-size: 17px;
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+    color: rgb(97, 97, 115);
+}
+
+.reach-out-to-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reach-out-to-us div{
+    display: flex;
+    gap: 15px;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-us div p{
+    color: rgb(97, 97, 115);
+    font-size: 13px;
+}

@@ -1,0 +1,29 @@
+.catogary{
+    margin-top:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.sec-line{
+    
+    width: 22%;
+    height: 1px;
+    background: rgb(217, 166, 208);
+}
+
+.Top-catgory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+
+}
+ 
+.heading-catalouge{
+    font-size: 40px;
+    margin: 0 20px;
+    font-weight: 700;
+}

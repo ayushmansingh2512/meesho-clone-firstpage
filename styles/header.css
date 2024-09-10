@@ -1,0 +1,114 @@
+.header1 {
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: 0.1px solid #b7b2b2;
+}
+
+.shopping-app {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 1300px;
+}
+
+.ddm3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style: none; /* This can be removed as we're using divs */
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 43px;
+    max-height: 280px;
+    
+}
+.woman-wear,
+.woman-wear-purple {
+    flex: 1; /* Allows the element to grow and fill the available space */
+}
+.item-2{
+    position: relative;
+}
+.item-2 {
+    display: flex; /* Added to ensure <a> is centered */
+    justify-content: center; /* Center the text inside */
+    text-decoration: none;
+    color: #353543;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+.item-2 a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from .item-2 */
+    font-weight: 100;
+    
+    display: block;
+}
+
+.item-2:hover {
+    border-bottom: 2px solid rgb(159, 32, 137);
+    color: rgb(159, 32, 137);
+}
+
+.dropdown-menu3{
+    width: 1280px;
+    line-height: 30px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0 ;
+    display: none;
+    border:1px solid rgb(220, 220, 222);
+    justify-content: start;
+    align-items: start;
+    z-index: 1000;
+    cursor: pointer;
+    
+
+
+}
+
+.woman-wear{
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fff;
+    height: 280px;
+}   
+
+.woman-wear-purple{
+    background-color: rgb(248, 248, 255);
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 280px;
+    align-items: stretch;
+
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.woman-wear-heading{
+    color: rgb(159, 32, 137);
+    text-align: start;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    
+ }
+ .woman-wear-para{
+    color: #666;
+    text-align: start;
+
+ }
+ .item-2:hover .dropdown-menu3,
+.item-2.active .dropdown-menu3 {
+    display: flex; /* Show on hover or if item has active class */
+}

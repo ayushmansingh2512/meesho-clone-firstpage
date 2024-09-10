@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+}
+.fixed{
+    top:0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    background: #fff;
+}
+.navbar{
+    position: relative;
+   display: flex;
+   justify-content: center;
+   max-width: 100%;
+  align-items: center;
+  margin: 10px 0;
+  padding-bottom:10px ;
+  border-bottom: 0.1px solid #b7b2b2;
+  background: rgb(255, 255, 255);
+}
+nav{
+ width: 1300px;    
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+ 
+
+ 
+
+}
+.meesho-logo-1{
+    width: 150px;
+    cursor: pointer;
+}
+.search-Box{
+    position: relative;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    cursor: pointer;
+}
+.search-icon{
+    font-size: 24px; /* Adjust size as needed */
+    padding: 0.3px 0 2.1px 10px;
+    border-top:1px solid rgb(139, 139, 163);
+    border-left:1px solid rgb(139, 139, 163) ;
+    border-bottom: 1px solid rgb(139, 139, 163);
+    border-radius: 5px 0 0 5px ;
+}
+.SearchBox{
+
+    font-size: 16px;
+    border-left:none ;
+    width: 400px;
+    padding: 10px 0px 10px 10px  ;
+    border-top:1px solid rgb(139, 139, 163);
+    border-right:1px solid rgb(139, 139, 163) ;
+    border-bottom: 1px solid rgb(139, 139, 163);
+    border-radius: 0 5px 5px 0;
+}
+.SearchBox:focus{
+  
+    outline: none;
+}
+.download-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+     
+} 
+ 
+.downloadApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    position: relative;
+
+}
+.download-app .downloadApp .paragraph1:hover{
+color: rgb(159, 32, 137);
+}
+.sc-pyfCe3:hover{
+    fill: rgb(159, 32, 137);
+}
+.profile-cart{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc-pyfCe2{
+  margin: 0 0 0 10px;
+ 
+}
+.sc-pyfCe1 {
+    margin-left:5px ;
+  }
+  
+.paragraph1{
+    font-weight:"book";
+    font-size: 16px;
+    color: #353543;
+    padding-right: 20px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    border-right:1px solid #b7b2b2;
+}
+.paragraph2{
+    font-weight:"book";
+    font-size: 16px;
+    color: #353543;
+    
+}
+.dropdown-menu{
+     display: none;
+     position: absolute;
+    
+     
+     top: 100%;
+     left:0;
+     right: 0;
+ 
+     list-style: none;
+     background-color:rgb(255, 255, 255);
+     padding:16px 16px 8px; 
+     border-radius: 5px;
+     border:1px solid rgb(220, 220, 222);
+     z-index: 1000;
+    }
+.search-Box.focused .dropdown-menu {
+     display: flex; /* Display the dropdown menu */
+     flex-direction: column;
+     gap: 10px; 
+    }
+.ddm1{
+ 
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 392px;
+    gap: 20px;
+}
+
+ 
+.ps{
+    width: 100%;
+    
+
+}
+.item-1{
+    border:1px solid rgb(234, 234, 242); 
+    text-decoration:none;
+    color:#666;
+    list-style: none;
+    padding: 1px 10px;
+    border-radius: 16px;
+    background:rgb(248, 248, 255); 
+   
+       
+}
+
+.dropdown-menu2{
+    top:100%;
+    display: none;
+    right:0;
+    left:0;
+    position: absolute;
+    z-index: 1000;
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(220, 220, 222);
+
+}
+
+.downloadApp.click.dropdown-menu2{
+    display: n;
+}
+
+.ddm2{
+    list-style: none;
+    text-decoration: none;
+   
+    flex-wrap: wrap;
+     
+}
+.df{
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+.drop-images{
+    width: 160px;
+    margin: 10px 0;
+
+}

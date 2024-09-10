@@ -1,0 +1,118 @@
+.accordian-showcase{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: start ;
+}
+
+.accordian{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+  
+    height:auto;
+    border-radius: 5px;
+    max-width: 100%;
+
+}
+.acc-sho{
+    width: 1300px;
+    display: flex;
+  
+}
+
+.filler{
+    
+   margin: 10px 20px;
+}
+
+.accordian-h1{
+    font-weight: 100;
+   
+}
+.accordian-p{
+    display: flex;
+    font-weight: 100;
+    max-width: 150px;
+ 
+    color: #666;
+    margin-bottom: 10px;
+}
+.accordian-wrapper{
+    justify-content: center;
+    margin-bottom:20px;
+    cursor: pointer;
+  
+  
+}
+.accordian-para{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ padding: 10px 0px;
+ margin: 0 20px;
+ border-bottom: 1px solid rgb(218, 209, 209);
+ 
+
+}
+.accordian-para1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    margin: 0 20px;
+     
+}
+.accordian-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 200px;
+
+}
+.accordian-heading1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:0;
+   
+}
+.accordian-heading1 h3{
+    font-weight: 100;
+}
+.accordian-heading h3{
+    font-weight: 100;
+}
+.accordian-content{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+    width: 210px;
+   
+
+}
+
+@media only screen and (max-width:880px){
+    .accordian{
+       display: flex;
+        width: 100%;
+    }
+    .accordian-showcase{
+        
+    }
+    .accordian-wrapper{
+        width: 100%;
+    }
+ 
+.acc-sho{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.accordian-heading{
+   
+    width: 100%;
+
+}
+}

@@ -1,0 +1,15 @@
+.product-forr-u{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-heading{
+    width: 1300px;
+    margin-bottom: 60px;
+}
+.product-forr-u .product-heading h1{
+    font-size: 32px;
+    font-weight: 100;
+}
